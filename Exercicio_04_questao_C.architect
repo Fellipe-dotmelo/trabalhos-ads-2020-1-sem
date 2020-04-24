@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architect-project version="1.0" appversion="1.0.8">
+ <project-name>Exercicio_04_questao_C</project-name>
+ <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <project-data-sources>
+  <data-source id="DS0">
+   <property key="Logical" value="Modelo de Dados" />
+  </data-source>
+ </project-data-sources>
+ <source-databases>
+ </source-databases>
+ <target-database id="ppdb" dbcs-ref="DS0">
+  <table id="TAB1" populated="true" UUID="a5c12218-443a-46a8-ae80-30e86c417854" name="curso" objectType="TABLE" physicalName="_curso" >
+   <remarks></remarks>
+   <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL2" populated="true" UUID="5ff1c21a-0984-4ef1-b9be-cf54b14dacc2" autoIncrement="true" autoIncrementSequenceName="_curso_id_curso_seq" defaultValue="" name="id_curso" nullable="0" physicalName="id_curso" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL3" populated="true" UUID="86c6b78d-6503-4db7-bbe2-ccbd5dc79e14" autoIncrement="false" autoIncrementSequenceName="_curso_nome_curso_seq" defaultValue="" name="nome_curso" nullable="0" physicalName="nome_curso" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL4" populated="true" UUID="2653aee7-f5e1-471b-8790-d5a0c3402d03" autoIncrement="false" autoIncrementSequenceName="_curso_carga_horaria_seq" defaultValue="" name="carga_horaria" nullable="1" physicalName="carga_horaria" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="5" userDefinedTypeUUID="69fb547f-e14c-4748-9746-4c0e9e94eb52" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB13" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB12" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX5" populated="true" UUID="3bbb3307-7bc5-4328-a33c-0f2302e6548d" clustered="false" name="id_curso_pk" physicalName="id_curso_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC6" populated="true" UUID="231d3c51-7855-466e-b112-ab8dcb39f08e" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="id_curso" physicalName="id_curso" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB7" populated="true" UUID="d3deab9c-7dcb-49ca-8ac4-acd613b945f5" name="turma " objectType="TABLE" physicalName="turma " >
+   <remarks></remarks>
+   <folder id="FOLTAB71" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL8" populated="true" UUID="d38a6444-c898-4fcb-a9ed-aa5cd836494f" autoIncrement="true" autoIncrementSequenceName="turma _id_turma _seq" defaultValue="" name="id_turma " nullable="0" physicalName="id_turma " precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL9" populated="true" UUID="80ff0349-3208-4a68-b913-e1fe7e33ef77" autoIncrement="false" defaultValue="" name="id_curso" nullable="0" physicalName="id_curso" precision="0" primaryKeySeq="1" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL10" populated="true" UUID="210eb068-504b-4d51-8cc4-4558055d1eef" autoIncrement="false" defaultValue="" name="id_aluno " nullable="0" physicalName="id_aluno " precision="0" primaryKeySeq="2" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL11" populated="true" UUID="74bdadc1-3a14-4b9f-9c6a-e19908c5f0b2" autoIncrement="false" defaultValue="" name="id_aluno" nullable="0" physicalName="id_aluno" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL12" populated="true" UUID="1a667760-cd47-4726-8321-dcd207900424" autoIncrement="false" defaultValue="" name="data_matricula" nullable="0" physicalName="data_matricula" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB73" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB72" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB74" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX13" populated="true" UUID="25aaed22-af2c-478b-bb66-f21d280c42d1" clustered="false" name="id_turma _pk" physicalName="id_turma _pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC14" populated="true" UUID="30cbb35d-4c68-440a-93ee-03e17e150c54" ascendingOrDescending="UNSPECIFIED" column-ref="COL8" name="id_turma " physicalName="id_turma " />
+     <index-column id="IDC15" populated="true" UUID="b50f617c-a7b7-4afd-acb0-5fab2f694461" ascendingOrDescending="UNSPECIFIED" column-ref="COL9" name="id_curso" physicalName="id_curso" />
+     <index-column id="IDC16" populated="true" UUID="f85e7318-7d4d-41ac-9167-a9b0a2c0656c" ascendingOrDescending="UNSPECIFIED" column-ref="COL10" name="id_aluno " physicalName="id_aluno " />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB17" populated="true" UUID="0eb79e45-a408-4cb1-9d8c-f949c7007e10" name="aluno " objectType="TABLE" physicalName="aluno " >
+   <remarks></remarks>
+   <folder id="FOLTAB171" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL18" populated="true" UUID="368b2c48-67c5-4d90-aaa6-89a8654847ac" autoIncrement="true" defaultValue="" name="id_aluno " nullable="0" physicalName="id_aluno " precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL19" populated="true" UUID="30b420dc-bf3b-43cf-9a58-7cba337d8538" autoIncrement="false" defaultValue="" name="nome_aluno " nullable="0" physicalName="nome_aluno " precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL20" populated="true" UUID="cf9d1c0e-fcc2-4327-920d-c21efb504487" autoIncrement="false" defaultValue="" name="email_aluno" nullable="0" physicalName="email_aluno" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL21" populated="true" UUID="1b48568f-f384-4f39-8b4a-96ef64a86f3b" autoIncrement="false" defaultValue="" name="fone_contato " nullable="0" physicalName="fone_contato " precision="14" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB173" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB172" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB174" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX22" populated="true" UUID="576ca9fd-a142-4335-8fd4-fe86b3572e53" clustered="false" name="id_aluno " physicalName="id_aluno " primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC23" populated="true" UUID="941e8c83-4cfe-4f79-b75d-a6fd200cf7ba" ascendingOrDescending="UNSPECIFIED" column-ref="COL18" name="id_aluno " physicalName="id_aluno " />
+    </index>
+   </folder>
+  </table>
+  <relationships>
+   <relationship id="REL24" populated="true" UUID="79576e2c-073f-4ed1-8741-af16586c040a" deferrability="7" deleteRule="3" fk-table-ref="TAB7" fkCardinality="7" identifying="true" name="_curso_turma _fk" physicalName="_curso_turma _fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP25" populated="true" UUID="7db1e269-b763-4b0a-a9c0-fa4995a67753" fk-column-ref="COL9" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+   <relationship id="REL26" populated="true" UUID="75793912-cd8a-4c43-9800-21b5e1a21b16" deferrability="7" deleteRule="3" fk-table-ref="TAB7" fkCardinality="7" identifying="true" name="aluno _turma _fk" physicalName="aluno _turma _fk" pk-table-ref="TAB17" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP27" populated="true" UUID="6ec42348-3fd2-4fad-800a-0d144c7bda3b" fk-column-ref="COL10" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL18" />
+   </relationship>
+  </relationships>
+ </target-database>
+ <ddl-generator type="ca.sqlpower.architect.ddl.GenericDDLGenerator" allow-connection="true"> </ddl-generator>
+ <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
+ <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
+ <play-pen zoom="1.189207115002721" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB1" x="91" y="38" bgColor="0xe6d794" fgColor="0x000000" rounded="true" dashed="false"/>
+  <table-pane table-ref="TAB7" x="93" y="205" bgColor="0xe8cfdb" fgColor="0x000000" rounded="true" dashed="false"/>
+  <table-pane table-ref="TAB17" x="91" y="377" bgColor="0xb9bbf6" fgColor="0x000000" rounded="true" dashed="false"/>
+  <table-link relationship-ref="REL24" pkConnection="0.4925373134328358" fkConnection="0.5026178010471204" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL26" pkConnection="0.49019607843137253" fkConnection="0.5051546391752577" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+ </play-pen>
+ <critic-manager>
+  <critic-grouping platformType="Generic" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PrimaryKeyCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.RelationshipMappingTypeCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.EmptyRelationshipCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericSequenceNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetDefaultOnColumnWithNoDefaultCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetNullOnNonNullableColumnCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DuplicateNameCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="DB2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DB2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="H2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.H2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="HSQLDB" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.HSQLDBUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="MySQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLCommentCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="Oracle" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OraclePhysicalNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="PostgreSQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PostgreSQLReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerUnsupportedFeaturesCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2000" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2000UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2005" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2005UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+ </critic-manager>
+ <profiles topNCount="10">
+  </profiles>
+  <olap>
+  </olap>
+  <olap-gui>
+  </olap-gui>
+</architect-project>
